@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block titele %} asd asd {% endblock  %}
+{% block content %}
+<h1>hello word</h1>
+{% if all_items %}
+    {% for things in all_items %}
+       {{things.item}}
+    {% endfor %}
+{% endif %}    
+
+{% endblock  %}
+
+
+
+
+
